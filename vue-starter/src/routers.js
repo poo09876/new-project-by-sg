@@ -7,7 +7,7 @@ import ParentEmit   from '@/pages/2-emit/Parent.vue'
 import Parent2Way   from '@/pages/3-2way/Parent.vue'
 import BusDemo      from '@/pages/4-bus/Demo.vue'
 import TodoDemo     from '@/pages/5-todo/index.vue'
-
+import TodoVuex     from '@/pages/6-todo-vuex/index.vue'
 export default new Router({
   mode:"history",
   routes: [
@@ -17,6 +17,6 @@ export default new Router({
     { path: '/2way',      name: 'Parent2Way',     component: Parent2Way   },
     { path: '/bus',       name: 'BusDemo',        component: BusDemo      },
     { path: '/todo',      name: 'TodoDemo',       component: TodoDemo     },
-    
+    { path: '/todo-vuex',      name: 'TodoVuex',       component: TodoVuex     },
   ]
 })

@@ -7,7 +7,7 @@
       <li>双向绑定-组件通讯：v-model <a href="/2way">点击进入</a></li>
       <li>普通组件通讯：Global Bus <a href="/bus">点击进入</a></li>
       <li>一个简单的Todo List： <a href="/todo">点击进入</a></li>
-      <li></li>
+      <li>基于Vuex的Todo List： <a href="/todo-vuex">点击进入</a></li>
     </ol>
   </div>
 </template>
