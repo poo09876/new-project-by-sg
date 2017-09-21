@@ -1,5 +1,5 @@
 <template>
-  <div class="parent">
+  <div class="grey-box">
    <h1>父组件（灰色背景）</h1>
     <input type="text" v-model="msg" >
     <Child :message="msg"></Child>
@@ -17,14 +17,21 @@
   }
 </script>
 <style>
-  .parent{
+  .grey-box{
     background-color: gainsboro;
     height: 400px;
   }
-  .parent input{
+  .grey-box input{
     width: 300px;
     height: 35px;
     line-height: 35px;
     font-size: 18px;
+  }
+  .yellow-box{
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: yellow;
+    height: 100px;
   }
 </style>
